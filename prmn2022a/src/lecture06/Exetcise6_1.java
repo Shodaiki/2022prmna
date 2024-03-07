@@ -9,6 +9,7 @@ public class Exetcise6_1 {
             Scanner input = new Scanner(System.in);
             double d= input.nextDouble();
             System.out.println(d);
+            System.out.println("こんにちは");
         }catch (InputMismatchException e){
             System.out.println("エラー");
         }
